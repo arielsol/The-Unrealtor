@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SG_CathedralRuby
+  m_Shader: {fileID: 4800000, guid: ef1c57d35da843343a4e0d4432c154f1, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_GRADIENT
+  - _DOUBLE_SIDED
+  - _USE_GLASS_COLOR_EMISSION
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMode: 1
+    - _DoubleSided: 1
+    - _EmissionEdgeEnabled: 0
+    - _EmissionEdgePower: 2
+    - _EmissionEdgeWidth: 0.1
+    - _EmissionIntensity: 2
+    - _EmissionPulseEnabled: 0
+    - _EmissionPulseMin: 0.5
+    - _EmissionPulseSpeed: 1
+    - _EnvironmentReflections: 1
+    - _FresnelOpacityPower: 3
+    - _FresnelOpacityScale: 0.6
+    - _FresnelPower: 3
+    - _FresnelScale: 1
+    - _GlassOpacity: 0.2
+    - _GlassTintStrength: 0.6
+    - _GradientAngle: 30
+    - _GradientOffset: -0.1
+    - _GradientSharpness: 1.2
+    - _IridescenceEnabled: 0
+    - _IridescenceIntensity: 0.3
+    - _IridescenceThickness: 1.5
+    - _LeadLineGridX: 4
+    - _LeadLineGridY: 4
+    - _LeadLineWidth: 0.02
+    - _LeadLinesEnabled: 0
+    - _Metallic: 0.05
+    - _MultiZoneBlend: 0.1
+    - _MultiZoneCount: 3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Refraction: 0.12
+    - _RefractionIOR: 1.52
+    - _Smoothness: 0.95
+    - _SpecularHighlights: 1
+    - _TransAmbient: 0.15
+    - _TransDirect: 0.85
+    - _TransNormal: 0.3
+    - _TransScattering: 3
+    - _TransShadow: 0.5
+    - _Translucency: 6
+    - _TransmissionTintStrength: 0.9
+    - _UseGlassColorEmission: 1
+    - _VoronoiEdgeWidth: 0.04
+    - _VoronoiScale: 5
+    m_Colors:
+    - _BaseColor: {r: 0.7, g: 0.05, b: 0.05, a: 0.6}
+    - _ColorB: {r: 0.9, g: 0.2, b: 0.05, a: 0.5}
+    - _ColorC: {r: 0.09999997, g: 0.8, b: 0.09999997, a: 0.5}
+    - _ColorD: {r: 0.8, g: 0.8, b: 0.09999997, a: 0.5}
+    - _EmissionColor: {r: 1.5, g: 0.4, b: 0.1, a: 1}
+    - _FresnelColor: {r: 1, g: 0.8, b: 0.6, a: 0.8}
+    - _LeadLineColor: {r: 0.09999997, g: 0.09999997, b: 0.09999997, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ef8d3a1e-caa9-4386-a420-abc4181868cd}">
+		<property name="name">
+			<value>ReverbTypeRight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c5de36a8-8956-45ff-813b-b3b79e71c8c1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{014b38bf-bb95-4848-b664-88eafcbc3fff}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{014b38bf-bb95-4848-b664-88eafcbc3fff}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Hallway</value>
+			<value>MediumRoom</value>
+			<value>LivingRoom</value>
+			<value>Bedroom</value>
+			<value>Bathroom</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

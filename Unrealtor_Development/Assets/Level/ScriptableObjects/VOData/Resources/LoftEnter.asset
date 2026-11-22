@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: LoftEnter
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -979004429
+      Data2: 1127147869
+      Data3: -1683295557
+      Data4: 1431458304
+    Path: event:/VO_Final/Maya/DX_M08_LoftEnter
+  - Guid:
+      Data1: 247063629
+      Data2: 1317538392
+      Data3: -1169134442
+      Data4: -539946667
+    Path: event:/VO_Final/Noah/DX_N07_LoftEnter
+  - Guid:
+      Data1: -943014277
+      Data2: 1114970020
+      Data3: -157770367
+      Data4: -1827065389
+    Path: event:/VO_Final/Edgar/DX_E05_LoftEnter
+  - Guid:
+      Data1: 1065381088
+      Data2: 1092309504
+      Data3: -1498985049
+      Data4: -1792438339
+    Path: event:/VO_Final/Maya/DX_M09_LoftEnter
+  - Guid:
+      Data1: 1149454813
+      Data2: 1246743047
+      Data3: -1957168498
+      Data4: -14364593
+    Path: event:/VO_Final/Edgar/DX_E06_LoftEnter
+  priority: 4
+  dialogueVOVolume: 1
+  category: 3

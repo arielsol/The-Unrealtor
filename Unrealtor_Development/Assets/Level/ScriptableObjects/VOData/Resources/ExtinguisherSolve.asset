@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: ExtinguisherSolve
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: 1780787468
+      Data2: 1188602511
+      Data3: -1589405819
+      Data4: 86078638
+    Path: event:/SFX/SFXHouseCollapse
+  - Guid:
+      Data1: -1924001016
+      Data2: 1299354144
+      Data3: 62655376
+      Data4: -892692148
+    Path: event:/VO_Final/Noah/DX_N29_ExtinguisherSolve
+  priority: 3
+  dialogueVOVolume: 1
+  category: 3

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{5fb48784-42a4-49d5-9147-2ee37a652cb3}">
+		<property name="name">
+			<value>LeftReverbs</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{db9b41de-4c93-4c06-a2d2-29388be2fe69}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{234265c5-1fdb-4a15-bc2e-d955511e946f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c22c6a9d-d3a4-4dd3-91fd-6d32e0671f03}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{db9b41de-4c93-4c06-a2d2-29388be2fe69}">
+		<relationship name="effects">
+			<destination>{167da467-1323-4a93-94dc-108e43a978bd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{234265c5-1fdb-4a15-bc2e-d955511e946f}" />
+	<object class="MixerBusFader" id="{167da467-1323-4a93-94dc-108e43a978bd}" />
+</objects>

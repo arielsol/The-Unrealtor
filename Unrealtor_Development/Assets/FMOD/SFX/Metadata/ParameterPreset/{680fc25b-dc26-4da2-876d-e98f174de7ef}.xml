@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{680fc25b-dc26-4da2-876d-e98f174de7ef}">
+		<property name="name">
+			<value>showerPan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{23c12660-5739-404d-810d-8b4a04bbc2aa}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{23c12660-5739-404d-810d-8b4a04bbc2aa}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

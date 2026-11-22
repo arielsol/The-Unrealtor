@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PRISM v2 - Monkey 2
+  m_Shader: {fileID: -6465566751694194690, guid: 15c0d615f81fc754ead289663c9b4432, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _BLUR_MODE_GAUSSIAN
+  - _LIT_FRESNEL_ENABLED
+  - _REFRACTION_MODEL_SPHERE
+  - _UNLIT_FRESNEL_ENABLED
+  - _VOLUMETRIC_LIGHTING_ENABLED
+  - _VOLUMETRIC_LIGHTING_TRANSMITTANCE
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CameraOpaqueTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Camera_Custom_RT:
+        m_Texture: {fileID: 8600000, guid: b3a044d081dc6724c97fc4bf6639db1f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Camera_Texture:
+        m_Texture: {fileID: 8600000, guid: b3a044d081dc6724c97fc4bf6639db1f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Custom_Camera_RT:
+        m_Texture: {fileID: 8600000, guid: b3a044d081dc6724c97fc4bf6639db1f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Custom_Camera_Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassCustomFunction_5b5e33c8097a46ba8d26c683f93588f1_tex2_31_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassCustomFunction_6656c43dfd01499294ae21be1bcc4ccb_tex2_32_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassCustomFunction_6656c43dfd01499294ae21be1bcc4ccb_tex_0_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddPrecomputedVelocity: 1
+    - _AlphaCutoff: 0.5
+    - _Aspect_Ratio: 1.77777
+    - _BLUR_MODE: 1
+    - _BOX_REFRACTION: 1
+    - _Blend: 1
+    - _Blue_Quality: 3
+    - _Blur_Direction_Refraction_Bias: -100
+    - _Blur_Quality: 3
+    - _Blur_Radius: 0.02
+    - _Blur_Refraction_Bias: 1
+    - _Blur_Refraction_Bias_Scale: -25
+    - _CUSTOM_CAMERA_TEXTURE: 0
+    - _CUSTOM_CAMERA_TEXTURE_ENABLED: 0
+    - _CUSTOM_REFRACTION: 0
+    - _Chromatic_Dispersion: 0.1
+    - _Chromatic_Dispersion_Steps: 1
+    - _Coat_Smoothness: 0
+    - _Cull_Front_Faces: 0
+    - _Custom_Camera_RTT: 0
+    - _Float: 0.595
+    - _Float_1: -0.2
+    - _Fresnel_Power: 0.4
+    - _Fresnel_Power_1: 2
+    - _IOR: 1.5
+    - _IOR_Colour_Offset: 0
+    - _IOR_Dispersion: 0.015
+    - _IOR_Medium: 1.5
+    - _IOR_Source: 1
+    - _Index_of_Refraction: 1.5
+    - _LIT_FRESNEL_ENABLED: 1
+    - _Lit_Fresnel_Additional_Light_Saturation: 1
+    - _Lit_Fresnel_Additional_Light_Strength: 0.08
+    - _Lit_Fresnel_Lighting: 1
+    - _Lit_Fresnel_Lighting_Blend: 1
+    - _Lit_Fresnel_Main_Light_Saturation: 0
+    - _Lit_Fresnel_Main_Light_Strength: 0
+    - _Lit_Fresnel_Power: 0.92
+    - _Lit_Fresnel_Priority: 0
+    - _Lit_Fresnel_Remap_Max: 0.739
+    - _Lit_Fresnel_Remap_Min: 0.052
+    - _Lit_Fresnel_Remap_Smoothstep: 1
+    - _Metallic: 0
+    - _Normal_Vertex_Offset: 0
+    - _Offset: -0.22222
+    - _Offset_2: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _REFRACTION_MODEL: 1
+    - _REFRACT_CUSTOM_RT: 0
+    - _REFRACT_CUSTOM_TEXTURE: 0
+    - _RGBSplit: 0.05
+    - _RGB_Split: 0.1
+    - _RGB_Split_2: 0
+    - _RGB_Split_Steps: 12
+    - _Raymarch_Blend: 1
+    - _Raymarch_Distance: 0.5
+    - _Raymarch_Refraction: 0
+    - _Raymarch_Steps: 32
+    - _ReceiveShadows: 1
+    - _Reflection: 1
+    - _Reflection_Fresnel_Power: 2
+    - _Reflection_Power: 2
+    - _Refract_Custom_RT: 0
+    - _Refraction: 0.02
+    - _RefractionIOR: 0.09
+    - _Refraction_IOR_Medium: 1.54
+    - _Refraction_IOR_Source: 1
+    - _Refraction_Index: 1.5
+    - _Refraction_Sphere_Thicknesss: 1
+    - _Refraction_Thickness: 2
+    - _Refraction_Type: 1
+    - _Smoothness: 0.42
+    - _TRANSLUCENCY_ENABLED: 0
+    - _TessEdgeLength: 16
+    - _TessMax: 25
+    - _TessMaxDisp: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 1
+    - _Thickness: 1
+    - _Thicknesss: 1.5
+    - _Translucency_Additional_Light_Strength: 1
+    - _Translucency_Additional_Lights: 1
+    - _Translucency_Ambient: 0.1
+    - _Translucency_Direct: 0.9
+    - _Translucency_Main_Light: 1
+    - _Translucency_Main_Light_Strength: 1
+    - _Translucency_Normal_Distortion: 0.5
+    - _Translucency_Power: 2
+    - _Translucency_Scale: 0.25
+    - _Translucency_Scattering: 2
+    - _Translucency_Shadow: 0.5
+    - _Translucency_Shadows: 0.5
+    - _Translucency_Strength: 0.1
+    - _UNLIT_FRESNEL_ENABLED: 1
+    - _USE_CUSTOM_CAMERA_TEXTURE: 0
+    - _Unlit_Fresnel_Power: 1.15
+    - _Unlit_Fresnel_Remap_Max: 0.7
+    - _Unlit_Fresnel_Remap_Min: 0
+    - _VOLUMETRIC_LIGHTING_ENABLED: 1
+    - _VOLUMETRIC_LIGHTING_TRANSMITTANCE: 1
+    - _Volumetric_Lighting_Additional_Light: 0
+    - _Volumetric_Lighting_Additional_Light_Bend: 1
+    - _Volumetric_Lighting_Additional_Light_Strength: 0.02
+    - _Volumetric_Lighting_Blend: 1
+    - _Volumetric_Lighting_Main_Light: 0
+    - _Volumetric_Lighting_Main_Light_Blend: 1
+    - _Volumetric_Lighting_Main_Light_Strength: 0.15
+    - _Volumetric_Lighting_Raymarch_Distance: 1
+    - _Volumetric_Lighting_Raymarch_Noise: 1
+    - _Volumetric_Lighting_Raymarch_Steps: 8
+    - _Volumetric_Lighting_Refraction: 0
+    - _Volumetric_Lighting_Scatter: 0
+    - _Volumetric_Lighting_Scattering: 2
+    m_Colors:
+    - _Colour: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Fresnel_Colour: {r: 0, g: 0.016993472, b: 0.050980393, a: 1}
+    - _Fresnel_Colour_1: {r: 1, g: 1, b: 1, a: 1}
+    - _Lit_Fresnel_Colour: {r: 0.69886, g: 0.69886, b: 0.69886, a: 1}
+    - _Translucency_Colour: {r: 0, g: 1.8823528, b: 4, a: 0.2}
+    - _Unlit_Fresnel_Colour: {r: 0, g: 0.017777776, b: 0.04, a: 0.74509805}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &6309735868908205789
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9

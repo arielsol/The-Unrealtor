@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{20e497c3-9b6c-4f91-9bbe-993d9ec36966}">
+		<property name="name">
+			<value>speakerOcclude</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{45a33f97-a9e5-45a7-994c-ef9a3c5fa253}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{45a33f97-a9e5-45a7-994c-ef9a3c5fa253}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{5882e283-32e5-4b5f-b307-0e5960d0a15a}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{5882e283-32e5-4b5f-b307-0e5960d0a15a}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

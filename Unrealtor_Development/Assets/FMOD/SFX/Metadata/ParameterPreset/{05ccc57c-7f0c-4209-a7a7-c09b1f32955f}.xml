@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{05ccc57c-7f0c-4209-a7a7-c09b1f32955f}">
+		<property name="name">
+			<value>speakerDist</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{66849c8a-8bbe-434d-b728-987b35eff638}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{66849c8a-8bbe-434d-b728-987b35eff638}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

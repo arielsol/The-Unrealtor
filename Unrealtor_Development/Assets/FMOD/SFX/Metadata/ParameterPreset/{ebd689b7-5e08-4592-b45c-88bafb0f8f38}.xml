@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ebd689b7-5e08-4592-b45c-88bafb0f8f38}">
+		<property name="name">
+			<value>RightVerbPanStrength</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1a1b6ede-9d06-460c-afec-f578b048662c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d73e8a59-318f-4522-9bd6-e8c7cef644fe}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d73e8a59-318f-4522-9bd6-e8c7cef644fe}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

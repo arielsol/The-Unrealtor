@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{ed502c6e-34c4-4431-8c86-df1f12eaee8b}">
+		<property name="name">
+			<value>showerDist</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{864e061b-1061-4f89-9008-9ab6a74669d7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{864e061b-1061-4f89-9008-9ab6a74669d7}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

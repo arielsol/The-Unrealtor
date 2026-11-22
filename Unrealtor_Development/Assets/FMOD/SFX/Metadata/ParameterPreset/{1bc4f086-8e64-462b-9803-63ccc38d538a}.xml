@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{1bc4f086-8e64-462b-9803-63ccc38d538a}">
+		<property name="name">
+			<value>showerOcclude</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{11feba17-488e-4837-8db0-b19021dc8c17}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{11feba17-488e-4837-8db0-b19021dc8c17}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{41b363e2-29ce-4e91-ac52-491443e52e7d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{41b363e2-29ce-4e91-ac52-491443e52e7d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: DrainTimer
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -1356767456
+      Data2: 1243820607
+      Data3: -843341422
+      Data4: -261121318
+    Path: event:/VO_Final/Noah/DX_N38_DrainTimer
+  - Guid:
+      Data1: 71982917
+      Data2: 1170137173
+      Data3: 1522889356
+      Data4: 579323942
+    Path: event:/VO_Final/Maya/DX_M37_DrainTimer
+  priority: 1
+  dialogueVOVolume: 1
+  category: 3

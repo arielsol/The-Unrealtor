@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: HalfHintExtinguisher
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -1450877369
+      Data2: 1295737813
+      Data3: 948685227
+      Data4: -505593190
+    Path: event:/VO_Final/Maya/DX_M19_HalfHintExtinguisher
+  - Guid:
+      Data1: -1982553972
+      Data2: 1229653684
+      Data3: -1025492301
+      Data4: 622858880
+    Path: event:/VO_Final/Noah/DX_N17_HalfHintExtinguisher
+  priority: 2
+  dialogueVOVolume: 1
+  category: 3

@@ -1,0 +1,772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e00be6961ed2e4cb896c35a35e5809ab, type: 3}
+  m_Name: Music_Background
+  m_EditorClassIdentifier: 
+  soundEntries:
+  - soundID: 0
+    bankName: Ambience
+    eventRef:
+      Guid:
+        Data1: 548998659
+        Data2: 1122605135
+        Data3: -1405699402
+        Data4: -1130484070
+      Path: event:/Ambience/AMBGeneral
+    isLooping: 1
+    defaultVolume: 0.5
+    pitch: 1
+    category: 2
+    priority: 0
+  - soundID: 1
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -161474816
+        Data2: 1323041683
+        Data3: 1230367896
+        Data4: 782684149
+      Path: event:/SFX/SFXFootstep01
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 5
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -1193584858
+        Data2: 1091318900
+        Data3: 2029433486
+        Data4: -633669444
+      Path: event:/UI/UIMatchSuccess
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 6
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 2052102532
+        Data2: 1074787806
+        Data3: 818769795
+        Data4: 1201224502
+      Path: event:/UI/UIMatchApproach
+    isLooping: 0
+    defaultVolume: 0.354
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 7
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1825084669
+        Data2: 1123581073
+        Data3: -464850509
+        Data4: 347332115
+      Path: event:/SFX/SFXGravStairs
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 8
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -1846773522
+        Data2: 1084171901
+        Data3: 900815534
+        Data4: -1226821395
+      Path: event:/UI/UIInteractHover
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 9
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1617199418
+        Data2: 1205408438
+        Data3: -625613145
+        Data4: 878004394
+      Path: event:/UI/UIInteractOpen
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 10
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1268350387
+        Data2: 1232689994
+        Data3: -515820914
+        Data4: -1577076445
+      Path: event:/UI/UIInteractClose
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 11
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -1008109327
+        Data2: 1312425698
+        Data3: -2018883666
+        Data4: -562695829
+      Path: event:/SFX/SFXDoorOpen
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 12
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -226949602
+        Data2: 1128963851
+        Data3: 1584380290
+        Data4: 204612471
+      Path: event:/UI/UIButtonHover
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 13
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1590846798
+        Data2: 1082175269
+        Data3: -1181786985
+        Data4: 666825548
+      Path: event:/UI/UIButtonClick
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 14
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1696197933
+        Data2: 1257784999
+        Data3: 579252408
+        Data4: 41224179
+      Path: event:/UI/UISliderUp
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 15
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 210486165
+        Data2: 1287827930
+        Data3: 2123469457
+        Data4: 394730959
+      Path: event:/UI/UISliderDown
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 16
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -24714208
+        Data2: 1127163343
+        Data3: -47607119
+        Data4: 336752637
+      Path: event:/UI/UIBackClick
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 18
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1184076293
+        Data2: 1217735449
+        Data3: 983261881
+        Data4: -1843170777
+      Path: event:/UI/UIPauseMenuHover
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 19
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -385360508
+        Data2: 1322460435
+        Data3: 219325842
+        Data4: -1486102680
+      Path: event:/UI/UIPauseMenuClick
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 21
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 381775248
+        Data2: 1133914978
+        Data3: -638189665
+        Data4: -799702224
+      Path: event:/UI/UIPauseMenuClose
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 20
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: 1195071628
+        Data2: 1259787505
+        Data3: 811223219
+        Data4: -1098119770
+      Path: event:/UI/UIPauseMenuOpen
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 22
+    bankName: Ambience
+    eventRef:
+      Guid:
+        Data1: 1322691939
+        Data2: 1288026767
+        Data3: 1037111997
+        Data4: -1953388767
+      Path: event:/Ambience/AMBStudio
+    isLooping: 0
+    defaultVolume: 0.218
+    pitch: 1
+    category: 2
+    priority: 0
+  - soundID: 23
+    bankName: UI
+    eventRef:
+      Guid:
+        Data1: -2118763618
+        Data2: 1339594889
+        Data3: 830862001
+        Data4: -1318553047
+      Path: event:/SFX/SFXKey
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 24
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1213933704
+        Data2: 1154934929
+        Data3: 207599497
+        Data4: 1236815933
+      Path: event:/SFX/SFXLamp
+    isLooping: 0
+    defaultVolume: 0.102
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 25
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -1730586112
+        Data2: 1307644340
+        Data3: 1668694940
+        Data4: -556529661
+      Path: event:/SFX/SFXTitleAppear
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 26
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -963888869
+        Data2: 1166844306
+        Data3: -1427975794
+        Data4: -72722955
+      Path: event:/SFX/SFXPhoneRing
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 27
+    bankName: MusicSystem
+    eventRef:
+      Guid:
+        Data1: 732250156
+        Data2: 1200756304
+        Data3: 1257232017
+        Data4: -943073154
+      Path: event:/MusicSystem/BGM_Final
+    isLooping: 1
+    defaultVolume: 1
+    pitch: 1
+    category: 2
+    priority: 0
+  - soundID: 28
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -621133436
+        Data2: 1238457711
+        Data3: -733407070
+        Data4: 166687872
+      Path: event:/SFX/SFXLightSwitch
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 29
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1853599020
+        Data2: 1320188077
+        Data3: 1457860504
+        Data4: -691481814
+      Path: event:/Ambience/AMBLivingRoom
+    isLooping: 0
+    defaultVolume: 0.133
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 30
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 738498398
+        Data2: 1262387190
+        Data3: 2140367494
+        Data4: 642947691
+      Path: event:/Ambience/AMBWater02
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 31
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 379482350
+        Data2: 1267378287
+        Data3: 320612483
+        Data4: 510035124
+      Path: event:/SFX/SFXFire
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 32
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 2125013033
+        Data2: 1329715746
+        Data3: -776366960
+        Data4: -357831684
+      Path: event:/SFX/SFXClog
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 33
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -963888869
+        Data2: 1166844306
+        Data3: -1427975794
+        Data4: -72722955
+      Path: event:/SFX/SFXPhoneRing
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 34
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -430300914
+        Data2: 1190960113
+        Data3: 102895243
+        Data4: -1895620720
+      Path: event:/SFX/SFXUnclog
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 35
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -69921767
+        Data2: 1232048918
+        Data3: -348730716
+        Data4: -1034433487
+      Path: event:/SFX/SFXExtinguisher
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 30
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1341534172
+        Data2: 1223465851
+        Data3: -949555018
+        Data4: -395309761
+      Path: event:/Ambience/AMBWater01
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 37
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1536758551
+        Data2: 1100919377
+        Data3: -2115841603
+        Data4: 1833050885
+      Path: event:/SFX/SFXShower
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 38
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -1416661365
+        Data2: 1290453131
+        Data3: -2127474516
+        Data4: 1351501324
+      Path: event:/SFX/SFXToilet
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 39
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 246880584
+        Data2: 1293980370
+        Data3: 1397270695
+        Data4: -573686925
+      Path: event:/SFX/SFXWaterDrain
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 40
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -1803848662
+        Data2: 1134778535
+        Data3: 1172809642
+        Data4: 2036031099
+      Path: event:/SFX/SFXDoorRattle
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 41
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -2118763618
+        Data2: 1339594889
+        Data3: 830862001
+        Data4: -1318553047
+      Path: event:/SFX/SFXKey
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 42
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 114868248
+        Data2: 1178124271
+        Data3: 1186313614
+        Data4: -560994780
+      Path: event:/SFX/SFXGameEnd
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 43
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 114868248
+        Data2: 1178124271
+        Data3: 1186313614
+        Data4: -560994780
+      Path: event:/SFX/SFXGameEnd
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 44
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 2052102532
+        Data2: 1074787806
+        Data3: 818769795
+        Data4: 1201224502
+      Path: event:/UI/UIMatchApproach
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 45
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 2052102532
+        Data2: 1074787806
+        Data3: 818769795
+        Data4: 1201224502
+      Path: event:/UI/UIMatchApproach
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 46
+    bankName: Ambience
+    eventRef:
+      Guid:
+        Data1: -1780348101
+        Data2: 1242899854
+        Data3: -1498164306
+        Data4: -1379548156
+      Path: event:/Ambience/AMBRight
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 2
+    priority: 0
+  - soundID: 47
+    bankName: Ambience
+    eventRef:
+      Guid:
+        Data1: -443273269
+        Data2: 1210743068
+        Data3: -2046942582
+        Data4: 479466482
+      Path: event:/Ambience/AMBLeft
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 2
+    priority: 0
+  - soundID: 48
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: -865658747
+        Data2: 1289353916
+        Data3: -79277900
+        Data4: 780214529
+      Path: event:/SFX/SFXFootstepsLeft
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 49
+    bankName: SFX
+    eventRef:
+      Guid:
+        Data1: 1872284743
+        Data2: 1156198748
+        Data3: 1778607272
+        Data4: -307836416
+      Path: event:/SFX/SFXFootstepsRight
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 1
+    priority: 0
+  - soundID: 50
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: 473833995
+        Data2: 1107249663
+        Data3: 389791918
+        Data4: 204629054
+      Path: event:/UI/UIBoxCheck
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 51
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: 473039216
+        Data2: 1298415293
+        Data3: 566591383
+        Data4: 495957506
+      Path: event:/UI/UIBoxUncheck
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 52
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: 448314879
+        Data2: 1221701327
+        Data3: -442638965
+        Data4: 447449290
+      Path: event:/UI/UIStartButtonHover
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 17
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: -263006847
+        Data2: 1276327267
+        Data3: 381129102
+        Data4: 629246503
+      Path: event:/UI/UIStartButton
+    isLooping: 0
+    defaultVolume: 1
+    pitch: 1
+    category: 4
+    priority: 0
+  - soundID: 53
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: 732250156
+        Data2: 1200756304
+        Data3: 1257232017
+        Data4: -943073154
+      Path: event:/MusicSystem/BGM_Final
+    isLooping: 0
+    defaultVolume: 0
+    pitch: 0.5
+    category: 0
+    priority: 0
+  - soundID: 54
+    bankName: Desktop/UI
+    eventRef:
+      Guid:
+        Data1: 423608428
+        Data2: 1224735659
+        Data3: -1154432350
+        Data4: -1745969993
+      Path: event:/UI/UIMatchSnap
+    isLooping: 0
+    defaultVolume: 0
+    pitch: 0.5
+    category: 4
+    priority: 0
+  - soundID: 55
+    bankName: Desktop/SFX
+    eventRef:
+      Guid:
+        Data1: 1226933182
+        Data2: 1258712877
+        Data3: -502187349
+        Data4: 1449736894
+      Path: event:/SFX/SFXWallFall
+    isLooping: 0
+    defaultVolume: 0
+    pitch: 0.5
+    category: 1
+    priority: 0
+  - soundID: 56
+    bankName: Desktop/SFX
+    eventRef:
+      Guid:
+        Data1: -1730586112
+        Data2: 1307644340
+        Data3: 1668694940
+        Data4: -556529661
+      Path: event:/SFX/SFXTitleAppear
+    isLooping: 0
+    defaultVolume: 0
+    pitch: 0.5
+    category: 1
+    priority: 0
+  footstepInterval: 0.4

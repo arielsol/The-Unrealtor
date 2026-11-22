@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Crystal_Obsidian_Foggy
+  m_Shader: {fileID: 4800000, guid: 0609fad087b95d141b69a78acf43bfa7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_SOLID
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _HeightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _ColorBoost: 1.5
+    - _ColorMode: 0
+    - _CoreOpacity: 0.361
+    - _CrackScale: 8
+    - _CrackSoftness: 0.03
+    - _CrackWidth: 0.06
+    - _DepthColorDarken: 0.5
+    - _DepthOffset: -0.5
+    - _EmissionIntensity: 1.5
+    - _EmissionPulseEnabled: 0
+    - _EmissionPulseMin: 0.3
+    - _EmissionPulseSpeed: 1
+    - _EmissionStrength: 1
+    - _EnvironmentReflections: 1
+    - _FresnelOpacityPower: 2.5
+    - _FresnelOpacityScale: 0.35
+    - _FresnelPower: 3
+    - _FresnelScale: 0.8
+    - _FresnelSmoothing: 0.4
+    - _GlassOpacity: 0.75
+    - _GlassTintStrength: 0.4
+    - _GlobalOpacity: 1
+    - _GradientAngle: 45
+    - _GradientOffset: 0
+    - _GradientSharpness: 1
+    - _HeightStrength: 0.03
+    - _IridescenceIntensity: 0
+    - _IridescenceShift: 0.6
+    - _IridescenceSmoothing: 0.5
+    - _IridescenceThickness: 2
+    - _Metallic: 0
+    - _NormalStrength: 0.46
+    - _ParallaxEnabled: 0
+    - _PrimarySpecPower: 40
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Refraction: 0.02
+    - _RefractionIOR: 1.6
+    - _RefractionStrength: 0
+    - _RimTransparencyPower: 0.1
+    - _Saturation: 1.3
+    - _Smoothness: 0.15
+    - _SparkleIntensity: 4
+    - _SparklePower: 900
+    - _SparkleScale: 30
+    - _SpecularHighlights: 1
+    - _TransAmbient: 0.3
+    - _TransDirect: 0.6
+    - _TransNormal: 0.4
+    - _TransScattering: 5
+    - _TransShadow: 0.4
+    - _Translucency: 8
+    - _TransmissionTintStrength: 0.5
+    - _VoronoiScale: 5
+    m_Colors:
+    - _BaseColor: {r: 0.1, g: 0.1, b: 0.12, a: 1}
+    - _ColorA: {r: 0.85, g: 0.15, b: 0.15, a: 1}
+    - _ColorB: {r: 0.15, g: 0.12, b: 0.18, a: 1}
+    - _ColorC: {r: 0.06, g: 0.06, b: 0.1, a: 1}
+    - _ColorD: {r: 0.9, g: 0.65, b: 0.1, a: 1}
+    - _EmissionColor: {r: 0.2, g: 0.2, b: 0.25, a: 1}
+    - _FresnelColor: {r: 0.35, g: 0.35, b: 0.4, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1.1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

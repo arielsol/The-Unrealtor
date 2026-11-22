@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{259f92b8-e8e5-4f9a-aed7-db847c00a633}">
+		<property name="name">
+			<value>clogPan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e9d1acc3-9b4e-4374-860e-2bbcf4477bb5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e9d1acc3-9b4e-4374-860e-2bbcf4477bb5}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

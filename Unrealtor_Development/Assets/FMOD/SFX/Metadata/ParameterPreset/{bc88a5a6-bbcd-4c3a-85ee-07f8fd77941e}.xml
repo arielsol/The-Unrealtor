@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{bc88a5a6-bbcd-4c3a-85ee-07f8fd77941e}">
+		<property name="name">
+			<value>BathroomVerbRight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fc5be12-3352-4df5-a306-f12c113d2e69}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9beb9f75-4a15-4404-a4e5-3cea2265edc6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9beb9f75-4a15-4404-a4e5-3cea2265edc6}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="automators">
+			<destination>{b3a7f646-d9ca-43fd-b7d7-52700321332b}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{c7c93a79-30e4-457f-9a87-5d5081d0221c}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{b3a7f646-d9ca-43fd-b7d7-52700321332b}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{7691004d-25f9-41f7-bdec-5530edb8aaee}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{c7c93a79-30e4-457f-9a87-5d5081d0221c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.5</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{7691004d-25f9-41f7-bdec-5530edb8aaee}">
+		<relationship name="parameter">
+			<destination>{014b38bf-bb95-4848-b664-88eafcbc3fff}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{bda48879-7b1e-4f21-8d5f-9740752636d9}</destination>
+			<destination>{8bac6aa9-ab03-4840-b8f5-6902b3325b13}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{bda48879-7b1e-4f21-8d5f-9740752636d9}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{8bac6aa9-ab03-4840-b8f5-6902b3325b13}">
+		<property name="position">
+			<value>4</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

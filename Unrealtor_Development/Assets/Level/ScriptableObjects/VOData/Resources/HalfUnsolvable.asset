@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: HalfUnsolvable
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -1898531120
+      Data2: 1152291894
+      Data3: -1201217857
+      Data4: -2136290136
+    Path: event:/VO_Final/Pickups_Noah/DX_NP18
+  - Guid:
+      Data1: -657579631
+      Data2: 1146204279
+      Data3: -856801100
+      Data4: 728207753
+    Path: event:/VO_Final/Pickups_Maya/DX_MP19
+  priority: 1
+  dialogueVOVolume: 1
+  category: 3

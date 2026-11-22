@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: PlungerTimer
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: 689647626
+      Data2: 1253352278
+      Data3: -172996729
+      Data4: 2022215428
+    Path: event:/VO_Final/Pickups_Noah/DX_NP12
+  - Guid:
+      Data1: 1048740742
+      Data2: 1124432667
+      Data3: -14866281
+      Data4: 1780997808
+    Path: event:/VO_Final/Pickups_Maya/DX_MP13
+  - Guid:
+      Data1: -1967371480
+      Data2: 1151512942
+      Data3: -915549
+      Data4: -1820566952
+    Path: event:/VO_Final/Noah/DX_N27_PlungerTimer
+  - Guid:
+      Data1: 1602947415
+      Data2: 1323254601
+      Data3: 1685331131
+      Data4: 1801097951
+    Path: event:/VO_Final/Pickups_Maya/DX_MP14
+  priority: 1
+  dialogueVOVolume: 1
+  category: 3

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SG_AuroraBorealis
+  m_Shader: {fileID: 4800000, guid: 35f7a3628aed9114f89055db28c6234b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORMODE_VORONOI
+  - _DOUBLE_SIDED
+  - _EMISSION_PULSE_ON
+  - _IRIDESCENCE_ON
+  - _USE_GLASS_COLOR_EMISSION
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorMode: 2
+    - _DoubleSided: 1
+    - _EmissionEdgeEnabled: 0
+    - _EmissionEdgePower: 2
+    - _EmissionEdgeWidth: 0.1
+    - _EmissionIntensity: 2.2
+    - _EmissionPulseEnabled: 1
+    - _EmissionPulseMin: 0.7
+    - _EmissionPulseSpeed: 0.5
+    - _EnvironmentReflections: 1
+    - _FresnelOpacityPower: 3
+    - _FresnelOpacityScale: 0.6
+    - _FresnelPower: 2.5
+    - _FresnelScale: 1.3
+    - _GlassOpacity: 0.2
+    - _GlassTintStrength: 0.6
+    - _GradientAngle: 45
+    - _GradientOffset: 0
+    - _GradientSharpness: 1
+    - _IridescenceEnabled: 1
+    - _IridescenceIntensity: 0.25
+    - _IridescenceThickness: 2
+    - _LeadLineGridX: 4
+    - _LeadLineGridY: 4
+    - _LeadLineWidth: 0.02
+    - _LeadLinesEnabled: 0
+    - _Metallic: 0.06
+    - _MultiZoneBlend: 0.1
+    - _MultiZoneCount: 3
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Refraction: 0.1
+    - _RefractionIOR: 1.5
+    - _Smoothness: 0.95
+    - _SpecularHighlights: 1
+    - _TransAmbient: 0.25
+    - _TransDirect: 0.8
+    - _TransNormal: 0.3
+    - _TransScattering: 3
+    - _TransShadow: 0.4
+    - _Translucency: 7
+    - _TransmissionTintStrength: 0.9
+    - _UseGlassColorEmission: 1
+    - _VoronoiEdgeWidth: 0.04
+    - _VoronoiScale: 6
+    m_Colors:
+    - _BaseColor: {r: 0.1, g: 0.8, b: 0.4, a: 0.5}
+    - _ColorB: {r: 0.1, g: 0.4, b: 0.9, a: 0.5}
+    - _ColorC: {r: 0.5, g: 0.1, b: 0.8, a: 0.5}
+    - _ColorD: {r: 0.1, g: 0.9, b: 0.8, a: 0.5}
+    - _EmissionColor: {r: 0.5, g: 1.2, b: 1, a: 1}
+    - _FresnelColor: {r: 0.6, g: 1, b: 0.8, a: 0.9}
+    - _LeadLineColor: {r: 0.08, g: 0.08, b: 0.08, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

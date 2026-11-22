@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{c5de36a8-8956-45ff-813b-b3b79e71c8c1}">
+		<property name="name">
+			<value>Audio Zones</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ecd2d3d8-bcac-4549-8ad8-5cece570ae75}</destination>
+		</relationship>
+	</object>
+</objects>

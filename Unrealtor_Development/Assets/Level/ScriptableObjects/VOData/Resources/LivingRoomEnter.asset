@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: LivingRoomEnter
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: 159803438
+      Data2: 1140736740
+      Data3: -272621131
+      Data4: -208673674
+    Path: event:/VO_Final/Edgar/DX_E08_LivingRoomEnter
+  - Guid:
+      Data1: -1594023798
+      Data2: 1120869730
+      Data3: 1299784098
+      Data4: 476770227
+    Path: event:/VO_Final/Maya/DX_M23_LivingRoomEnter
+  - Guid:
+      Data1: 1649823430
+      Data2: 1338581405
+      Data3: -509581643
+      Data4: 1928917765
+    Path: event:/VO_Final/Noah/DX_N21_LivingRoomEnter
+  - Guid:
+      Data1: 1524141547
+      Data2: 1138773706
+      Data3: 354200474
+      Data4: -1855373704
+    Path: event:/VO_Final/Pickups_Noah/DX_NP11
+  - Guid:
+      Data1: 162439558
+      Data2: 1342118759
+      Data3: -149537398
+      Data4: 1850908065
+    Path: event:/VO_Final/Pickups_Maya/DX_MP11
+  priority: 4
+  dialogueVOVolume: 1
+  category: 3

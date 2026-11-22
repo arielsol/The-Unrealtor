@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: LampSolve
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -1363673716
+      Data2: 1273496741
+      Data3: 189328280
+      Data4: 5450969
+    Path: event:/VO_Final/Maya/DX_M22_LampSolve
+  - Guid:
+      Data1: 501080756
+      Data2: 1182357995
+      Data3: -1474199672
+      Data4: 1413276898
+    Path: event:/VO_Final/Noah/DX_N20_LampSolve
+  priority: 3
+  dialogueVOVolume: 1
+  category: 3

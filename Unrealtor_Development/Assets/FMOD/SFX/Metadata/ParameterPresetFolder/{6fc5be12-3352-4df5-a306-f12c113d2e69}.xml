@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPresetFolder" id="{6fc5be12-3352-4df5-a306-f12c113d2e69}">
+		<property name="name">
+			<value>ReverbSeekFloats</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c5de36a8-8956-45ff-813b-b3b79e71c8c1}</destination>
+		</relationship>
+	</object>
+</objects>

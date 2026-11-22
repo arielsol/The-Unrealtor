@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{da21a20f-059f-48ee-8fb4-4edc0fbe0313}">
+		<property name="name">
+			<value>light1Dist</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5238a0ae-46e7-49a8-a96e-a7e70fe8737e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5238a0ae-46e7-49a8-a96e-a7e70fe8737e}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

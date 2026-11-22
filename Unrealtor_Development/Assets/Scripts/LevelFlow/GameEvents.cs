@@ -1,0 +1,9 @@
+using System;using UnityEngine;public static class GameEvents{    public enum GameActionEnum    {        Flood,        DrainFlood,        CatchFire,        PutOutFire,        StartInputTutorial,        EndInputTutorial,        EndGame,        DrainSolve    }    public static Action OnFlood;    public static Action OnDrainFlood;    public static Action OnCatchFire;    public static Action OnPutOutFire;    public static Action OnStartInputTutorial;    public static Action OnEndInputTutorial;    public static Action OnEndGame;
+    public static Action OnDrainSolve;
+
+    public delegate void CutsceneChanged(GameManager.CutsceneState newState);    public static event CutsceneChanged OnCutsceneStateChanged;
+
+    [Header("Behavior Graph Events")]    [SerializeField] public static PuzzleCompletedEC TriggerPuzzleCompletedGraphEvent;    [SerializeField] public static PuzzleCompletedEC ReceivePuzzleCompletedGraphEvent;    [SerializeField] public static DoorOpenEC ReceiveDoorOpenEC;    public static void InvokeCutsceneChanged(GameManager.CutsceneState newState)    {        OnCutsceneStateChanged?.Invoke(newState);    }
+
+    public static void GameTrigger(GameActionEnum action)    {        switch (action)        {            case GameActionEnum.Flood: OnFlood?.Invoke(); break;            case GameActionEnum.DrainFlood: OnDrainFlood?.Invoke(); break;            case GameActionEnum.CatchFire: OnCatchFire?.Invoke(); break;            case GameActionEnum.PutOutFire: OnPutOutFire?.Invoke(); break;            case GameActionEnum.StartInputTutorial: OnStartInputTutorial?.Invoke(); break;            case GameActionEnum.EndInputTutorial: OnEndInputTutorial?.Invoke(); break;            case GameActionEnum.EndGame: OnEndGame?.Invoke(); break;
+            case GameActionEnum.DrainSolve: OnDrainSolve?.Invoke(); break;        }    }}

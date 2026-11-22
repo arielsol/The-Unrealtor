@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: ExitSolve
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -786649267
+      Data2: 1215200465
+      Data3: 16379315
+      Data4: -1282165823
+    Path: event:/VO_Final/Pickups_Maya/DX_MP17
+  - Guid:
+      Data1: 950452913
+      Data2: 1301052502
+      Data3: 2048587905
+      Data4: 1421505649
+    Path: event:/VO_Final/Noah/DX_N40_ExitSolve
+  - Guid:
+      Data1: -1810252076
+      Data2: 1130259870
+      Data3: 888853153
+      Data4: -1176823124
+    Path: event:/VO_Final/Edgar/DX_E19_ExitSolve
+  priority: 8
+  dialogueVOVolume: 1
+  category: 3

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d8f6d015-5899-43eb-bb72-a48d1c702e29}">
+		<property name="name">
+			<value>firePan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9a3304a6-3d9f-42a7-a4ea-9167bfab1aaf}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9a3304a6-3d9f-42a7-a4ea-9167bfab1aaf}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

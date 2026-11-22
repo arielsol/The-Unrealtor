@@ -1,0 +1,517 @@
+﻿title: StartScreen
+---
+<<CallVO DialogueManager 0>>
+Maya: This place is kind of... bland?
+
+<<CallVO DialogueManager 1>>
+Noah: Bland is fine. It's better than <i>roaches</i>.
+===
+
+title: Intro
+---
+<<declare $DrainCount = 0>>
+
+<<declare $KeyTrigger = false>>
+
+<<SetIntro DialogueManager>>
+
+<<CallVO DialogueManager 0>>
+<i>Maya's phone rings.</i>
+
+<<CallVO DialogueManager 1>>
+Edgar: Hey, Noah and Maya! Get into the house okay?
+
+<<CallVO DialogueManager 2>>
+Maya: Edgar, usually the landlord shows up for the start of a tour-
+
+<<CallVO DialogueManager 3>>
+Edgar: Just finishing up some renovations at another property, be there soon.
+
+<<CallVO DialogueManager 4>>
+Noah: Oh, we can wait outside.
+
+<<CallVO DialogueManager 5>>
+<i>The door jiggles but doesn't budge.</i>
+
+<<CallVO DialogueManager 6>>
+Maya: Is the door locked?
+
+<<CallVO DialogueManager 7>>
+Edgar: It does that. Just find the key.
+===
+
+
+title: HalfKeyTip
+---
+<<CallVO DialogueManager 0>>
+Maya: Well, there’s half of the key. 
+
+<<CallVO DialogueManager 1>>
+Edgar: Yeah, the previous tenants broke a lot of stuff.  
+
+===
+
+title: KeyFlyer
+---
+<<CallVO DialogueManager 0>>
+Maya: Why do landlords always use the weirdest locks and keys imaginable?
+===
+title: KeyFlyer2
+---
+<<CallVO DialogueManager 0>>
+Noah: Why do landlords always use the weirdest locks and keys imaginable?
+===
+
+title: DoorLook
+---
+
+<<if $KeyTrigger == true>>
+    <<stop>>    
+<<endif>>
+
+<<CallVO DialogueManager 0>>
+Maya: There’s the symbol of a key on the door...
+<<CallVO DialogueManager 1>>
+Noah: Must be a reminder. Like, “in case you lose it, here’s what the key looks like!”
+<<CallVO DialogueManager 2>>
+Maya: I guess that’s necessary if your front door randomly <i>locks you inside</i>.
+===
+
+title: KeySolve
+---
+<<wait 11>>
+<<set $KeyTrigger = true>>
+
+<<CallVO DialogueManager 0>>
+Noah: Didn't that door lead outside before?
+
+<<SetKey DialogueManager>>
+===
+
+title: StairLook
+---
+<<CallVO DialogueManager 0>>
+Maya: Does that staircase just... go nowhere?
+===
+
+title: LoftEnter
+---
+<<CallVO DialogueManager 0>>
+Maya: What the...
+
+<<CallVO DialogueManager 1>>
+Noah: It's like we're in an Escher drawing.
+
+<<CallVO DialogueManager 2>>
+Edgar: Do you like the mood lighting?
+
+<<CallVO DialogueManager 3>>
+Maya: Edgar, how do we get out? It’s so dark in here.
+
+<<CallVO DialogueManager 4>>
+Edgar: Just turn on the lamp.
+
+<<DialogueDelay DialogueManager 120 LampTimer LampSolve>>
+===
+
+
+title: HalfHintLamp
+---
+<<CallVO DialogueManager 0>>
+Noah: That looks like half of a lamp.
+
+<<CallVO DialogueManager 1>>
+Maya: The lamp's broken, too? How much do we need to fix before we get out of here?
+===
+
+title: HalfHintPineapple
+---
+<<CallVO DialogueManager 0>>
+Maya: Is this pineapple... radioactive? 
+<<CallVO DialogueManager 1>>
+Maya: Why's it glowing?
+===
+title: HalfHintPineapple2
+---
+<<CallVO DialogueManager 0>>
+Noah: Is this pineapple... radioactive?
+<<CallVO DialogueManager 1>>
+Noah: Why's it glowing?
+===
+
+title: HalfHintKnob
+---
+<<CallVO DialogueManager 0>>
+Noah: Aww, is that a little wooden train set?
+===
+title: HalfHintTrophy
+---
+<<CallVO DialogueManager 0>>
+Maya: Is that bear made of wood? Not exactly huggable.
+===
+
+title: HalfHintPlunger2
+---
+<<CallVO DialogueManager 0>>
+Maya: Is that a gramophone? How old is Edgar?
+===
+title: HalfHintPlunger
+---
+<<CallVO DialogueManager 0>>
+Noah: Is that a gramophone? How old is Edgar?
+===
+title: HalfHintHandle
+---
+<<CallVO DialogueManager 0>>
+Maya: Why are these curtains... hanging... up?
+<<CallVO DialogueManager 1>>
+Noah: I wish Edgar would hang up.
+<<CallVO DialogueManager 2>>
+Edgar: I got the highest quality curtain rods money can buy!
+===
+
+title: HalfHintDrain
+---
+<<CallVO DialogueManager 0>>
+Maya: How does a shower work in Escher gravity?
+<<CallVO DialogueManager 1>>
+Noah: Please don't make me think about it.
+===
+title: HalfHintLotus
+---
+<<CallVO DialogueManager 0>>
+Maya: I think we've found the source of the flood.
+<<CallVO DialogueManager 1>>
+Noah: Lotuses. Prettiest toilet clog I've ever seen.
+<<CallVO DialogueManager 2>>
+Maya: And you've seen a lot of them.
+<<CallVO DialogueManager 3>>
+Noah: Hey.
+===
+
+title: HalfHintExtinguisher
+---
+<<CallVO DialogueManager 0>>
+Maya: Edgar's taste in sculpture is, um. Avant-garde.
+
+<<CallVO DialogueManager 1>>
+Noah: I wonder if it's one of those magic-eye things that makes a shape.
+===
+title: HalfHintMobile
+---
+<<CallVO DialogueManager 0>>
+Maya: Love all the... <i>modern</i> art.
+<<CallVO DialogueManager 1>>
+Noah: Blood red is an interesting color choice. Sorta looks like an eldritch baby mobile. 
+===
+
+title: HalfHintExit
+---
+<<CallVO DialogueManager 0>>
+Maya: Not gonna ask why there’s a broken exit sign in a closet.
+===
+title: HalfHintExit2
+---
+<<CallVO DialogueManager 0>>
+Noah: Not gonna ask why there’s a broken exit sign in a closet.
+===
+
+
+title: LampTimer
+---
+<<CallVO DialogueManager 0>>
+Maya: I bet the lamp’s broken, too.
+
+<<CallVO DialogueManager 1>>
+Noah: What here looks like half a lamp?
+===
+
+title: LampSolve
+---
+<<wait 4>>
+<<CallVO DialogueManager 0>>
+Maya: Why do I not see a way outside?
+
+<<CallVO DialogueManager 1>>
+Noah: At least we can see.
+
+<<StartDialogue DialogueManager LivingRoomEnter>>
+===
+
+
+title: LivingRoomEnter
+---
+
+<<wait 0.5>>
+
+<<CallVO DialogueManager 0>>
+Edgar: Beautiful, right? The living room is open-concept. This one-of-a-kind space has a built in fireplace AND water feature.
+
+<<CallVO DialogueManager 1>>
+Maya: I knew DIY renovation could get bad, but-
+
+<<CallVO DialogueManager 2>>
+Noah: No wonder this place was in our price range. There must be an exit in here...
+
+<<wait 4>>  
+<<CallVO DialogueManager 3>>
+Noah: Am I the only one who finds it odd that we just fixed a lamp by attaching it to a similar-looking pineapple?
+
+<<CallVO DialogueManager 4>>
+Maya: One thing at a time. Let's look for a way out.
+===
+
+title: FireLook
+---
+<<CallVO DialogueManager 0>>
+Edgar: Note the classy built-in fireplace.
+
+<<CallVO DialogueManager 1>>
+Maya: Edgar. The house is just on fire.
+
+<<CallVO DialogueManager 2>>
+Noah: Let’s find an extinguisher before we die, maybe? Although I wouldn’t count on this guy installing one.
+
+<<DialogueDelay DialogueManager 120 ExtinguisherTimer ExtinguisherSolve>>
+===
+
+title: ClogLook
+---
+<<CallVO DialogueManager 0>>
+Maya: Ugh, god. What's clogging that pipe?
+
+<<CallVO DialogueManager 1>>
+Edgar: I think I left the plunger... upstairs? No, maybe by the record player.
+
+<<DialogueDelay DialogueManager 120 PlungerTimer PlungerSolve>>
+===
+
+title: ExtinguisherTimer
+---
+<<CallVO DialogueManager 0>>
+Noah: You'd think a bright red extinguisher would be easy to find.
+===
+
+title: PlungerTimer
+---
+<<CallVO DialogueManager 0>>
+Noah: Edgar said to check upstairs and by the record player for the plunger.
+
+<<CallVO DialogueManager 1>>
+Maya: What shapes make a plunger? Something round for the cup, and a rod for the handle?
+
+<<CallVO DialogueManager 2>>
+<i>Noah giggles.</i>
+
+<<CallVO DialogueManager 3>>
+Maya: What, cups and rods are making you laugh? Shut up.
+===
+
+title: PlungerFlyer
+---
+<<CallVO DialogueManager 0>>
+Maya: That's always a good message to get from a plumber.
+===
+title: PlungerFlyer2
+---
+<<CallVO DialogueManager 0>>
+Noah: That's always a good message to get from a plumber.
+===
+
+title: GeneralFlyer
+---
+<<CallVO DialogueManager 0>>
+Noah: Please tell me it says something nice this time.
+<<CallVO DialogueManager 1>>
+Maya: What do <i>you</i> think?
+===
+
+title: HalfUnsolvable
+---
+<<CallVO DialogueManager 0>>
+Noah: Have you seen the other half of this?
+<<CallVO DialogueManager 1>>
+Maya: No. Maybe it's in a room we haven't seen yet.
+===
+
+title: ExtinguisherSolve
+---
+<<SetExtinguisher DialogueManager>>
+
+<<wait 10>>  
+
+<<CallVO DialogueManager 1>>
+Noah: Our chances of dying have lowered! Slightly.
+===
+
+title: PlungerSolve
+---
+<<SetPlunger DialogueManager>>
+
+<<wait 10>>
+
+<<CallVO DialogueManager 1>>
+Noah: Glad the clog's gone. That was grossing me out.
+===
+
+title: Unsolvable
+---
+<<CallVO DialogueManager 0>>
+Maya: I don’t think I’ve seen the pieces to solve this yet. 
+
+<<CallVO DialogueManager 1>>
+Noah: Maybe we should find a way into the rooms that are still inaccessible.
+===
+
+title: ClosetLook
+---
+<<CallVO DialogueManager 0>>
+Maya: Edgar, did you just... not finish this wall?
+
+<<CallVO DialogueManager 1>>
+Edgar: I always lose a piece from jigsaw puzzles. I might've left it in the bedroom?
+
+<<DialogueDelay DialogueManager 120 DoorknobTimer DoorKnobSolve>>
+===
+title: ClosetLook2
+---
+<<CallVO DialogueManager 0>>
+Noah: Edgar, did you just... not finish this wall?
+
+<<CallVO DialogueManager 1>>
+Edgar: I always lose a piece from jigsaw puzzles. I might've left it in the bedroom?
+
+<<DialogueDelay DialogueManager 120 DoorknobTimer DoorKnobSolve>>
+===
+
+title: WaterfallLook
+---
+<<CallVO DialogueManager 0>>
+Noah: Do you see something behind all that water? Maybe it’s an exit.
+
+<<CallVO DialogueManager 1>>
+Maya: If we could just drain it- looks like a bathroom pipe burst. Yuck.
+===
+
+
+title: BedroomEntrance
+---
+<<CallVO DialogueManager 0>>
+Noah: Don’t you just hate falling out of bed in the morning?
+
+<<CallVO DialogueManager 1>>
+Maya: No exit here. Maybe more of Edgar’s broken stuff to fix, though.
+===
+
+title: DoorknobTimer
+---
+<<CallVO DialogueManager 0>>
+Maya: We're looking for a puzzle piece, right?
+
+<<CallVO DialogueManager 1>>
+Noah: Let's check the bedroom for parts that could fit that shape.
+===
+
+title: TenantFlyer
+---
+<<CallVO DialogueManager 0>>
+Noah: This must’ve been left by the last people who lived here.
+
+<<CallVO DialogueManager 1>>
+Maya: Willing to bet he forced them out just to flip the house. Literally, I guess.
+===
+
+
+title: BathroomEnter
+---
+<<CallVO DialogueManager 0>>
+Edgar: As you can see, the bathroom has a lovely walk-in jacuzzi.
+
+<<CallVO DialogueManager 1>>
+Noah: It's flooded! And everything's... giant?
+
+<<CallVO DialogueManager 2>>
+Edgar: As I said, walk-in. Just use the drain if there's too much water.
+
+<<CallVO DialogueManager 3>>
+Maya: His lease definitely has a mold disclosure.
+
+<<DialogueDelay DialogueManager 120 DrainTimer DrainSolve>>
+===
+
+title: DrainTimer
+---
+<<CallVO DialogueManager 0>>
+Noah: We have to get rid of the flood.
+
+<<CallVO DialogueManager 1>>
+Maya: Half of a drain would just be a semicircle full of holes, right?
+
+===
+
+title: DrainSolve
+---
+<<wait 20>>
+
+<<wait 20>>
+
+<<CallVO DialogueManager 0>>
+Maya: So, that opens to... a broken exit sign. That feels cruel.
+
+<<CallVO DialogueManager 1>>
+Noah: We'll find a way out of here somehow.
+
+<<CallVO DialogueManager 2>>
+Edgar: Exits are clearly labeled!
+===
+
+title: DoorKnobSolve
+---
+<<wait 0.5>>
+
+<<SetDrain DialogueManager>>
+
+<<CallVO DialogueManager 0>>
+Maya: Edgar. We've gone through every door. Where is the exit?
+
+<<CallVO DialogueManager 1>>
+Edgar: The sign should be obvious.
+
+<<DialogueDelay DialogueManager 180 ExitTimer ExitSolve>>
+===
+
+title: DoorDrainSwitch
+---
+<<if $DrainCount == 0>>
+    <<set $DrainCount to 1>>
+    <<StartDialogue DialogueManager DrainSolve>>
+<<elseif $DrainCount > 0>>
+    <<StartDialogue DialogueManager DoorKnobSolve>>
+<<endif>>
+===
+
+title: ExitTimer
+---
+<<CallVO DialogueManager 0>>
+Noah: Maybe fixing an exit sign could help us get out of here. Would fit this place’s logic.
+===
+
+title: ExitSolve
+---
+<<CallVO DialogueManager 0>>
+Maya: Finally. A way out.
+
+<<CallVO DialogueManager 1>>
+Noah: Thank god we escaped.
+
+<<wait 4>>
+
+<<CallVO DialogueManager 2>>
+Edgar: So. Do you want to rent the house?
+===
+
+title: CreditsScreen
+---
+<<CallVO DialogueManager 0>>
+<i>Edgar rambles about the house over the phone. He should wear himself out, eventually.</i>
+===

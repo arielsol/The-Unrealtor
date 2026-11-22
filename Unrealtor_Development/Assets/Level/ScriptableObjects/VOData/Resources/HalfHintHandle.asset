@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: HalfHintHandle
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: 990405232
+      Data2: 1273022408
+      Data3: 601197223
+      Data4: 1188417315
+    Path: event:/VO_Final/Pickups_Maya/DX_MP05
+  - Guid:
+      Data1: -376298542
+      Data2: 1293161046
+      Data3: -599347067
+      Data4: 835029555
+    Path: event:/VO_Final/Pickups_Noah/DX_NP05
+  - Guid:
+      Data1: 853816874
+      Data2: 1241719113
+      Data3: -1002217812
+      Data4: -1122903054
+    Path: event:/VO_Final/Pickups_Edgar/DX_EP1
+  priority: 2
+  dialogueVOVolume: 1
+  category: 3

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0de1486a-50d1-4dee-a59e-e17ebd28fca5}">
+		<property name="name">
+			<value>light1Occlude</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d264425d-c748-4927-93ac-54baf50a58e5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d264425d-c748-4927-93ac-54baf50a58e5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{27c9d3d9-073e-46b3-9a87-0834bde1c20f}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{27c9d3d9-073e-46b3-9a87-0834bde1c20f}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

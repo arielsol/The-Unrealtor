@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -963888869
+      Data2: 1166844306
+      Data3: -1427975794
+      Data4: -72722955
+    Path: event:/SFX/SFXPhoneRing
+  - Guid:
+      Data1: -1554509894
+      Data2: 1185898877
+      Data3: 1126594693
+      Data4: -688830671
+    Path: event:/VO_Final/Edgar/DX_E01_Intro
+  - Guid:
+      Data1: -1633499372
+      Data2: 1175047398
+      Data3: 270888610
+      Data4: -1930988866
+    Path: event:/VO_Final/Maya/DX_M02_Intro
+  - Guid:
+      Data1: 1159454463
+      Data2: 1079514190
+      Data3: -1839629666
+      Data4: 1381252357
+    Path: event:/VO_Final/Edgar/DX_E02_Intro
+  - Guid:
+      Data1: -746110000
+      Data2: 1192140351
+      Data3: 746866848
+      Data4: 428220533
+    Path: event:/VO_Final/Noah/DX_N02_Intro
+  - Guid:
+      Data1: -1803848662
+      Data2: 1134778535
+      Data3: 1172809642
+      Data4: 2036031099
+    Path: event:/SFX/SFXDoorRattle
+  - Guid:
+      Data1: 920110256
+      Data2: 1278345934
+      Data3: -946830179
+      Data4: -1612639226
+    Path: event:/VO_Final/Maya/DX_M03_Intro
+  - Guid:
+      Data1: -524331691
+      Data2: 1240113861
+      Data3: -2116637535
+      Data4: -2081246690
+    Path: event:/VO_Final/Edgar/DX_E03_Intro
+  priority: 2
+  dialogueVOVolume: 1
+  category: 3

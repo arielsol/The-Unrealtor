@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: ClosetLook2
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: -203721047
+      Data2: 1164061585
+      Data3: -130663279
+      Data4: -44719572
+    Path: event:/VO_Final/Pickups_Noah/DX_NP13
+  - Guid:
+      Data1: 2107962570
+      Data2: 1323498386
+      Data3: -850687854
+      Data4: -1894900253
+    Path: event:/VO_Final/Pickups_Edgar/DX_EP3
+  priority: 4
+  dialogueVOVolume: 1
+  category: 3

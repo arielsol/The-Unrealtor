@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{94ffa8d0-37d2-4d0a-b64e-b999509df7e7}">
+		<property name="name">
+			<value>fireOcclude</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cd6e7b83-1cc1-4af0-9a73-2092c1f7db36}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cd6e7b83-1cc1-4af0-9a73-2092c1f7db36}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{1147c8fd-23d3-4420-933f-4bc7aa3ec444}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{1147c8fd-23d3-4420-933f-4bc7aa3ec444}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>2</value>
+		</property>
+	</object>
+</objects>

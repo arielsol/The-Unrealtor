@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a8a61de43d4ece40b1a760eba1b99f0, type: 3}
+  m_Name: HalfHintLotus
+  m_EditorClassIdentifier: 
+  VOSoundEvents:
+  - Guid:
+      Data1: 298563692
+      Data2: 1137659106
+      Data3: 1895686285
+      Data4: 1767651013
+    Path: event:/VO_Final/Pickups_Maya/DX_MP07
+  - Guid:
+      Data1: -1308125105
+      Data2: 1336371471
+      Data3: -1137199734
+      Data4: -910145313
+    Path: event:/VO_Final/Pickups_Noah/DX_NP07
+  - Guid:
+      Data1: -1169746443
+      Data2: 1100193586
+      Data3: -1783506810
+      Data4: -1344573086
+    Path: event:/VO_Final/Pickups_Maya/DX_MP08
+  - Guid:
+      Data1: 1530144266
+      Data2: 1112946468
+      Data3: 555765659
+      Data4: 1591573622
+    Path: event:/VO_Final/Pickups_Noah/DX_NP08
+  priority: 2
+  dialogueVOVolume: 1
+  category: 3

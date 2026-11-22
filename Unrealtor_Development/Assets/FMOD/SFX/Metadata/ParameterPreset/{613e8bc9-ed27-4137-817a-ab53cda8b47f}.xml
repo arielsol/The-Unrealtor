@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{613e8bc9-ed27-4137-817a-ab53cda8b47f}">
+		<property name="name">
+			<value>speakerPan</value>
+		</property>
+		<relationship name="folder">
+			<destination>{5f050542-84d5-4002-87f4-8f20c461c1ea}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c1338949-bf8a-467d-a14c-5c3744d67c53}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c1338949-bf8a-467d-a14c-5c3744d67c53}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

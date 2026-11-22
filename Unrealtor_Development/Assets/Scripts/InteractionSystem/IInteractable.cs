@@ -1,0 +1,1 @@
+using UnityEngine;public interface IInteractable{    bool CanInteract();    void OnInteract();    GameObject GetUI();    bool HasConditionMet();     void OnInteract(BasePlayerController player);    void ShowPrompt(bool visible, BasePlayerController player);    }

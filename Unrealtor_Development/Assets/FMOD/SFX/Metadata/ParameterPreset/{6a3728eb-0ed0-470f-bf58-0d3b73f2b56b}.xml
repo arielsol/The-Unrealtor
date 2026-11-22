@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6a3728eb-0ed0-470f-bf58-0d3b73f2b56b}">
+		<property name="name">
+			<value>HallwayVerbRight</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fc5be12-3352-4df5-a306-f12c113d2e69}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a1aba828-7eae-4d94-86e0-5a1a781b931b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a1aba828-7eae-4d94-86e0-5a1a781b931b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+		<relationship name="automators">
+			<destination>{f3ca4ac9-5139-4d08-9652-925a41704e8c}</destination>
+		</relationship>
+		<relationship name="modulators">
+			<destination>{c9c68bfc-f44e-4124-923a-b15a98c646cc}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{f3ca4ac9-5139-4d08-9652-925a41704e8c}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{28e983e4-2a43-475a-a950-0ec467d7e47d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{c9c68bfc-f44e-4124-923a-b15a98c646cc}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="speedAscending">
+			<value>0.5</value>
+		</property>
+	</object>
+	<object class="AutomationCurve" id="{28e983e4-2a43-475a-a950-0ec467d7e47d}">
+		<relationship name="parameter">
+			<destination>{014b38bf-bb95-4848-b664-88eafcbc3fff}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{2c369ad3-fc20-48be-8a58-6250fb03f4f2}</destination>
+			<destination>{5877cec0-1eae-48cb-988a-9332c113366c}</destination>
+			<destination>{7f3f432b-9283-43a9-a7b8-44f4a06ad63c}</destination>
+			<destination>{9c67148e-d06c-4820-86b0-90397025bd32}</destination>
+			<destination>{72e37dd1-4b28-4d0f-8c35-43cb18091189}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{2c369ad3-fc20-48be-8a58-6250fb03f4f2}">
+		<property name="position">
+			<value>3</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5877cec0-1eae-48cb-988a-9332c113366c}">
+		<property name="position">
+			<value>4</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{7f3f432b-9283-43a9-a7b8-44f4a06ad63c}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{9c67148e-d06c-4820-86b0-90397025bd32}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{72e37dd1-4b28-4d0f-8c35-43cb18091189}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
