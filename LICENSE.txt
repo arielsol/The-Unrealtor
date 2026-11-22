@@ -1,0 +1,17 @@
+Copyright (c) 2026 Ariel Sol. All Rights Reserved.
+
+This repository and all of its contents, including but not limited to
+source code, documentation, audio, images, models, and other assets,
+are proprietary and confidential.
+
+No license, express or implied, is granted to any person or entity.
+You may not copy, reproduce, modify, merge, publish, distribute,
+sublicense, sell, or create derivative works from any part of this
+repository, in whole or in part, by any means or in any medium,
+for any purpose, commercial or non-commercial, without prior
+written permission from the copyright holder.
+
+This includes use of the contents as training data, input, or
+reference material for machine learning or AI systems.
+
+Unauthorized use may result in civil and criminal penalties.
